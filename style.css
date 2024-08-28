@@ -1,0 +1,46 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(150, 16, 116);
+    margin: 20px
+    
+}
+header {
+      border-bottom: SOLID 10PX rgb(161, 66, 137);
+      font-size:35px;
+      padding: 0px;
+      color:  rgb(0, 0, 0);
+}
+
+section {
+    background-color: rgb(255, 0, 212);
+    padding-bottom:80px;
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+
+    margin-right:5%;
+    border-right: solid 5px rgb(76, 0, 255);
+}
+img {
+    height: 200px;
+}
+
+.categoria{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+.categoria-vidio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria img{
+     opacity: 0.5;
+}
+.categproia-vidios img:hover{
+    opacity: 1.0;
+    height: 230px;
+    border: solid rgb(161, 66, 137);
+}
